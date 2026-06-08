@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TESC Solutions, LLC</title>
+  <meta name="description" content="Practical software for small and mid-sized businesses. ERP integrations, supply chain, warehousing, manufacturing process integration." />
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      color: #1a1a2e; line-height: 1.6; background: #fff;
+    }
+    .hero {
+      background: linear-gradient(135deg, #1a1a2e 0%, #2d2d52 100%);
+      color: #fff; padding: 96px 20px 80px; text-align: center;
+    }
+    .hero h1 {
+      font-size: 44px; margin-bottom: 14px; letter-spacing: -0.8px; font-weight: 700;
+    }
+    .hero p {
+      color: #b8b8d4; font-size: 19px; font-weight: 400;
+      max-width: 520px; margin: 0 auto;
+    }
+    .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+    section { padding: 64px 0; }
+    section + section { border-top: 1px solid #ececf2; }
+    h2 {
+      font-size: 14px; text-transform: uppercase; letter-spacing: 1.5px;
+      color: #6366f1; margin-bottom: 24px; font-weight: 600;
+    }
+    p {
+      font-size: 17px; color: #3a3a52; max-width: 640px;
+    }
+    .specialty {
+      padding: 20px 0; border-bottom: 1px solid #f0f0f5;
+    }
+    .specialty:last-child { border-bottom: none; }
+    .specialty h3 {
+      font-size: 17px; font-weight: 600; color: #1a1a2e; margin-bottom: 4px;
+    }
+    .specialty p {
+      font-size: 15px; color: #5a5a72; margin: 0;
+    }
+    footer {
+      text-align: center; padding: 40px 24px; color: #9a9aa8;
+      font-size: 13px; border-top: 1px solid #ececf2;
+    }
+    @media (max-width: 600px) {
+      .hero { padding: 64px 20px 56px; }
+      .hero h1 { font-size: 32px; }
+      .hero p { font-size: 16px; }
+      section { padding: 48px 0; }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <h1>TESC Solutions, LLC</h1>
+      <p>Practical software for small and mid-sized businesses.</p>
+    </div>
+  </header>
+
+  <div class="container">
+    <section>
+      <h2>About</h2>
+      <p>TESC Solutions is a North Carolina software company with 25+ years building ERP, warehouse, and supply-chain integrations for Fortune 500 enterprises. We bring that experience to small and mid-sized businesses that need real operational solutions without the bloat or complexity of enterprise tools.</p>
+    </section>
+
+    <section>
+      <h2>What we do</h2>
+      <div class="specialty">
+        <h3>ERP integrations</h3>
+        <p>Bridging accounting, inventory, and customer systems that weren't designed to talk to each other.</p>
+      </div>
+      <div class="specialty">
+        <h3>Supply chain &amp; warehousing</h3>
+        <p>Order flow, fulfillment tracking, vendor coordination, inventory accuracy.</p>
+      </div>
+      <div class="specialty">
+        <h3>Manufacturing process integration</h3>
+        <p>Connecting production systems to ERP, automating data flow from the shop floor up.</p>
+      </div>
+      <div class="specialty">
+        <h3>Label printing</h3>
+        <p>Barcode and product label generation, integrated with inventory and shipping systems.</p>
+      </div>
+      <div class="specialty">
+        <h3>Data analysis</h3>
+        <p>Turning operational data into reports that actually drive decisions.</p>
+      </div>
+      <div class="specialty">
+        <h3>End-user process simplification</h3>
+        <p>Taking workflows that take 20 clicks and making them take 2.</p>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    &copy; <span id="year"></span> TESC Solutions, LLC
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
